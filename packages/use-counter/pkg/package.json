@@ -1,6 +1,6 @@
 {
   "name": "@react-grapple/use-counter",
-  "version": "1.0.0",
+  "version": "1.0.1-1",
   "license": "MIT",
   "esnext": "dist-src/index.js",
   "module": "dist-web/index.js",
