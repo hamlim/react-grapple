@@ -1,0 +1,27 @@
+{
+  "name": "@react-grapple/use-counter",
+  "version": "1.0.0",
+  "license": "MIT",
+  "esnext": "dist-src/index.js",
+  "module": "dist-web/index.js",
+  "pika": true,
+  "sideEffects": false,
+  "files": [
+    "dist-*/",
+    "assets/",
+    "bin/"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "7.2.3",
+    "@babel/core": "7.3.4",
+    "@babel/preset-env": "7.3.4",
+    "@babel/preset-react": "7.0.0",
+    "@pika/plugin-build-web": "0.3.12",
+    "@pika/plugin-standard-pkg": "0.3.12",
+    "jest": "24.1.0",
+    "react": "16.8.3",
+    "react-dom": "16.8.3",
+    "react-testing-library": "6.0.0"
+  }
+}

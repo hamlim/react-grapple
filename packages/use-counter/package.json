@@ -1,0 +1,45 @@
+{
+  "name": "@react-grapple/use-counter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Matthew Hamlin <hamlim@outlook.com> (https://matthamlin.me/)",
+  "license": "MIT",
+  "@pika/pack": {
+    "pipeline": [
+      [
+        "@pika/plugin-standard-pkg",
+        {
+          "exclude": [
+            "__tests__/*"
+          ]
+        }
+      ],
+      [
+        "@pika/plugin-build-web"
+      ]
+    ]
+  },
+  "scripts": {
+    "publish": "pack publish",
+    "build": "pack build",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.2.3",
+    "@babel/core": "7.3.4",
+    "@babel/preset-env": "7.3.4",
+    "@babel/preset-react": "7.0.0",
+    "@pika/plugin-build-web": "0.3.12",
+    "@pika/plugin-standard-pkg": "0.3.12",
+    "jest": "24.1.0",
+    "react": "16.8.3",
+    "react-dom": "16.8.3",
+    "react-testing-library": "6.0.0"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  }
+}
