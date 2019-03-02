@@ -1,6 +1,6 @@
 {
   "name": "@react-grapple/use-counter",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": "Matthew Hamlin <hamlim@outlook.com> (https://matthamlin.me/)",
   "license": "MIT",
   "@pika/pack": {
@@ -15,6 +15,9 @@
       ],
       [
         "@pika/plugin-build-web"
+      ],
+      [
+        "@pika/plugin-bundle-web"
       ]
     ]
   },
@@ -29,6 +32,7 @@
     "@babel/preset-env": "7.3.4",
     "@babel/preset-react": "7.0.0",
     "@pika/plugin-build-web": "0.3.12",
+    "@pika/plugin-bundle-web": "0.3.12",
     "@pika/plugin-standard-pkg": "0.3.12",
     "jest": "24.1.0",
     "react": "16.8.3",
