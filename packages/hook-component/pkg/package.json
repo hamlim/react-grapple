@@ -1,6 +1,6 @@
 {
-  "name": "@react-grapple/use-counter",
-  "version": "1.1.2",
+  "name": "@react-grapple/hook-component",
+  "version": "0.0.1",
   "license": "MIT",
   "esnext": "dist-src/index.js",
   "module": "dist-web/index.js",
